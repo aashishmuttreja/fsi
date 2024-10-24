@@ -1,0 +1,280 @@
+@font-face{
+    font-family: "Baloo Tamma 2";
+    src:url(Manrope-VariableFont_wght.ttf);
+}
+li.dave-pred-txt {
+    font-family: "Baloo Tamma 2";
+    font-size: 11px;
+    background-image: url(search.svg);
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 20px;
+    background-position-x: left;
+}
+li.dave-pred-txt:hover{
+    font-weight: 600;
+}
+.dave-chatbox {
+    font-family: "Baloo Tamma 2";
+    border-radius: 10px !important;
+}
+.dave-botchat p.dave-chattext, p.dave-userchat-p {
+    font-family: "Baloo Tamma 2";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #666666;
+}
+.dave-cb-tt-sec{
+    background-color: #FFF;
+    box-shadow: 0px 15px 2px 16px;
+    border-bottom: solid 5px #F5F5F5;
+}
+.dave-cb-chatarea, .dave-cb-stickBottom, .dave-chatbox{
+    background: #F5F5F5;
+}   
+.dave-cb-chatarea {
+    background-size: auto;
+    background-image: url(logo.webp);
+    background-blend-mode: normal;
+    background-position-x: right;
+    background-position-y: bottom;
+}   
+.dave-cb-tt {
+    color: #832C93;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.dave-botchat{
+    background: #FFF;
+    box-shadow: 0px 0px 6px #0000002b;
+    max-width: 100%;
+    border-radius: 10px !important;
+}
+ul.dave-option-list li button {
+    box-shadow: 0px 0px 6px #00000029;
+    padding: 8px;
+    border-radius: 5px !important;
+    font-weight: 500;
+    font-family: "Baloo Tamma 2";
+    color: black;
+    font-size: 11.5px;
+    letter-spacing: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+.dave-userchat {
+    background: #832C93 0% 0% no-repeat padding-box;
+    border-radius: 5px !important;
+}
+.dave-botchat:before, .dave-userchat:before{
+    display: none;
+}
+p.dave-botBubble-header {
+    float: left;
+    padding-left: 0;
+}
+p.dave-userBubble-header {
+    color: white;
+    padding-right: 0;
+    float: right;
+}
+
+p.dave-userchat-p {
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+
+.dave-cb-stickBottom {
+    border-radius: 10px !important;
+}
+input#dave-cb-textinput {
+    border: none;
+    font-size: 13px;
+    font-family: "Baloo Tamma 2";
+    border-radius: 10px !important;
+}
+.dave-bc-avatar,.dave-uc-avatar {
+    display: none;
+}
+
+.dave-cb-chatarea {
+    padding: 10px 15px 0px 15px;
+}
+button.dave-homeBtn {
+    margin-right: 10px;
+    width: 62px;
+    height: 49px;
+    padding: 0px;
+    border-radius: 50% !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border: white;
+}
+.dave-cb-chatsugg-list {
+    background: #832c93 0% 0% no-repeat padding-box;
+    color: white;
+    font-weight: normal;
+}
+
+.rating-star-contt {
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    bottom: 30%;
+}
+
+#dave-userfull-rate:not(:checked) > label, #dave-accuracy-rate:not(:checked) > label {
+    width: 2.5rem;
+}
+
+div#dave-userfull-rate {
+    height: 20%;
+    align-items: center;
+}
+
+#dave-userfull-rate:not(:checked) > label:hover, #dave-accuracy-rate:not(:checked) > label:hover, #dave-userfull-rate:not(:checked) > label:hover ~ label, #dave-accuracy-rate:not(:checked) > label:hover ~ label, #dave-userfull-rate > input:checked ~ label, #dave-accuracy-rate > input:checked ~ label {
+    color: #92278F !important;
+}
+
+.rating-star-contt {
+    background: white;
+    margin: 10px;
+    border-radius: 5px !important;
+}
+
+button#dave-final-feedbackButton {
+    border-color: #92278f;
+    color: white;
+    background: #92278f;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px !important;
+}
+#dave-userfull-rate:not(:checked) > label:before, #dave-accuracy-rate:not(:checked) > label:before {
+    font-size: 2.5rem;
+}
+.dave-homeBtn img {
+    height: 50px;
+}
+.dave-botBubble-Title, .dave-userBubble-Title {
+    display: none;
+}
+.dave-botBubble-header, .dave-userBubble-header {
+    float: right;
+}
+.dave-botBubble-timestamp, .dave-userBubble-timestamp {
+    margin-top: -20px;
+    color: #686767;
+}
+.dave-cb-chatsugg {
+    display: none;
+}
+.dave-bottitleicon {
+    width: 72px;
+}
+button#dave-cb-usersend img {
+    height: 20px;
+    margin-bottom: 8px;
+}
+button#dave-cb-usersend img:hover {
+    height: 20px;
+    margin-bottom: 8px;
+}
+.more-options {
+    position: absolute;
+    right: -4px;
+    bottom: -14px;
+    background-image: url(../../../J4PdJj6wstmU.com/karnataka_bank/zOt68vgk6KyM.svg);
+    min-width: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.less-options {
+    display: none;
+    position: absolute;
+    right: -4px;
+    bottom: -14px;
+    background-image: url(../../../J4PdJj6wstmU.com/karnataka_bank/0kH3JkQvUn7E.svg);
+    min-width: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+p.dave-feedback-msg {
+    margin-top: -8px;
+    margin-left: -4px;
+}
+.dave-cb-form form input[type="submit"] {
+    background: #832C93 0% 0% no-repeat padding-box;
+    color: white;
+    font-size: 14px;
+    font-family: "Baloo Tamma 2";
+    text-transform: capitalize;
+    padding: 7px 0px;
+}
+p.dave-chattext a {
+    text-decoration: underline;
+    color: #832c93;
+}
+@media only screen and (max-width: 450px){/*CHANGE POSTION OF CHATBOX ON MOBILE USING RIGHT BOTTOM [ALSO YOU CAN USE LEFT AND TOP IF NEEDED]*/
+    .dave-chatbox-cont{
+        right: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}
+.dave-chattext>p {
+    margin-bottom: 0rem;
+    font-family: "Baloo Tamma 2";
+    font-size: 13px;
+    font-weight: 600;
+    font-height: 20px;
+    letter-spacing: 0px;
+    color: #666666;
+}
+ul.dave-option-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+p.dave-userchat-p img, p.dave-chattext img {
+    height: auto;
+    max-width: 50px;
+}
+p.dave-chat-items-bottom-p {
+    display: none;
+}
+ul.dave-chat-items {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: auto;
+    display: flex;
+}
+.dave-chat-items-imgcontt {
+    height: 50px;
+    min-width: 50px;
+}
+.dave-chatbox-cont {
+    right: 51px;
+    border-radius: 10px !important;
+    width: 415px;
+}
+@media only screen and (max-width: 450px){/*CHANGE POSTION OF CHATBOX ON MOBILE USING RIGHT BOTTOM [ALSO YOU CAN USE LEFT AND TOP IF NEEDED]*/
+    .dave-chatbox-cont{
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 99999;
+    }
+}
+.dave-bottitleicon img {
+    margin: 3px;
+}
+.dave-cb-icon img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

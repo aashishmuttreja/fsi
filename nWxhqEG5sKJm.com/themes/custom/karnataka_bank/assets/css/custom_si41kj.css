@@ -1,0 +1,201 @@
+select#edit-field-your-goals-our-priority-ca-target-id {
+    background-image: none !important;
+}
+
+a.language-link.is-active {
+    color: #92278f;
+}
+
+/*.sticky-overview-wrapper .sticky-overview-right {
+    padding: 11px 0 11px 201px !important;
+}*/
+ 
+p.search-result-job-position {
+    position: absolute;
+}
+
+.custom-table-wrap tbody tr td:nth-last-child(1), .custom-table-wrap tbody tr td:nth-last-child(2) {
+    text-align: left !important;
+}
+
+.jsHideLoader{
+
+    .ajax-progress {
+        display: none !important;
+        }
+    
+        button#btn__any__ {
+            width: 84px;
+        }
+    
+        .reaching-out {
+            padding: 0 0 60px 0;
+        }  
+}
+
+.jsFeaturesSlider .slick-dots {
+    > li {
+        display: inline-block;
+    }
+    > li:only-child {
+        display: none;
+    }
+}
+.jsEaseCardSlider1 .slick-dots {
+    > li {
+        display: inline-block;
+    }
+    > li:only-child {
+        display: none;
+    }
+}
+
+.jsKblSlider1 .slick-dots {
+    > li {
+        display: inline-block;
+    }
+    > li:only-child {
+        display: none;
+    }
+}
+
+.jsPmSlider1 .slick-dots {
+    > li {
+        display: inline-block;
+    }
+    > li:only-child {
+        display: none;
+    }
+}
+
+.jsPmSlider2 .slick-dots {
+    > li {
+        display: inline-block;
+    }
+    > li:only-child {
+        display: none;
+    }
+}
+.jsBankingSlider .slick-dots {
+    > li {
+        display: inline-block;
+    }
+    > li:only-child {
+        display: none;
+    }
+}
+
+.jsBillKindsSlider .slick-dots {
+    > li {
+        display: inline-block;
+    }
+    > li:only-child {
+        display: none;
+    }
+}
+.jsEaseSlider3 .slick-dots, .jsEaseSlider .slick-dots {
+    > li {
+        display: inline-block;
+    }
+    > li:only-child {
+        display: none;
+    }
+}
+
+
+
+.login-form-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-wrapper .form-inner {
+    max-width: 450px;
+    margin: 0 auto;
+     
+}
+
+.login-form-wrapper .form-inner .img-wrapper {
+    margin-bottom: 30px;
+}
+
+.login-form-wrapper .form-inner .img-wrapper img {
+    margin: 0 auto;
+}
+
+.login-form-wrapper .form-inner .form-floating {
+    margin-bottom: 20px;
+}
+
+.login-form-wrapper .form-inner .form-floating .form-control {
+    margin-top: 0;
+}
+
+.customnrisection .select-wrapper {
+    display:block;
+    margin-right: 0;
+}
+.customnrisection .custom-ui-select{
+    margin-bottom: 20px;
+}
+
+.customnrisection .form-select{
+    background-image: none;
+}
+
+/* Add this to your CSS file */
+.no-copy-paste {
+    user-select: none; /* Disable text selection */
+}
+  
+.no-autocomplete {
+    -webkit-autocomplete: off;  /* Disable autocomplete in WebKit browsers */
+    -moz-autocomplete: off; /* Disable autocomplete in Firefox */
+    autocomplete: off !important; /* Disable autocomplete in other browsers */
+}
+
+.ajax-progress-fullscreen {
+  background-color: #fff !important;
+  background-image: url("../images/page-loader.gif") !important;
+  background-size: contain;
+}
+.ajax-progress-throbber .throbber {
+  background-image: url("../images/page-loader.gif") !important;
+  background-size: contain;
+}
+
+.view-id-explore_job_positions .view-empty{
+    display: none;
+}
+
+/*search page*/
+#search-form label, #search-form .search-help-link{
+    display: none !important;
+}
+.js input.form-autocomplete{
+    background-image: none !important;
+}
+/*search page*/
+.maintenance-page main {
+    text-align: center;
+    margin-top: 152px;
+    font-size: 20px;
+}
+
+.maintenance-page header {
+    display: none;
+}
+.custom-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+@media (max-width:767px){
+    /*salary account page card button padding fixes*/
+    .choose-account-box .btn-holder .btn{
+        padding: 9px 20px;
+    }
+}

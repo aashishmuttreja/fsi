@@ -1,0 +1,98 @@
+
+@font-face {
+  font-family: 'ManropeLight';
+  src: url('../fonts/ManropeLight.eot');
+  src: url('../fonts/ManropeLight.eot') format('embedded-opentype'),
+       url('../fonts/ManropeLight.woff2') format('woff2'),
+       url('../fonts/ManropeLight.woff') format('woff'),
+       url('../fonts/ManropeLight.ttf') format('truetype'),
+       url('../fonts/ManropeLight.svg#ManropeLight') format('svg');
+       font-style: normal;
+       font-display: swap;
+}
+
+@font-face {
+  font-family: 'ManropeRegular';
+  src: url('../fonts/text-fonts/ManropeRegular.eot');
+  src: url('../fonts/text-fonts/ManropeRegular.eot') format('embedded-opentype'),
+       url('../fonts/text-fonts/ManropeRegular.woff2') format('woff2'),
+       url('../fonts/text-fonts/ManropeRegular.woff') format('woff'),
+       url('../fonts/text-fonts/ManropeRegular.ttf') format('truetype'),
+       url('../fonts/text-fonts/ManropeRegular.svg#ManropeRegular') format('svg');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'ManropeMedium';
+  src: url('../fonts/text-fonts/ManropeMedium.eot');
+  src: url('../fonts/text-fonts/ManropeMedium.eot') format('embedded-opentype'),
+       url('../fonts/text-fonts/ManropeMedium.woff2') format('woff2'),
+       url('../fonts/text-fonts/ManropeMedium.woff') format('woff'),
+       url('../fonts/text-fonts/ManropeMedium.ttf') format('truetype'),
+       url('../fonts/text-fonts/ManropeMedium.svg#ManropeMedium') format('svg');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'ManropeSemiBold';
+  src: url('../fonts/text-fonts/ManropeSemiBold.eot');
+  src: url('../fonts/text-fonts/ManropeSemiBold.eot') format('embedded-opentype'),
+       url('../fonts/text-fonts/ManropeSemiBold.woff2') format('woff2'),
+       url('../fonts/text-fonts/ManropeSemiBold.woff') format('woff'),
+       url('../fonts/text-fonts/ManropeSemiBold.ttf') format('truetype'),
+       url('../fonts/text-fonts/ManropeSemiBold.svg#ManropeSemiBold') format('svg');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'ManropeBold';
+  src: url('../fonts/text-fonts/ManropeBold.eot');
+  src: url('../fonts/text-fonts/ManropeBold.eot') format('embedded-opentype'),
+       url('../fonts/text-fonts/ManropeBold.woff2') format('woff2'),
+       url('../fonts/text-fonts/ManropeBold.woff') format('woff'),
+       url('../fonts/text-fonts/ManropeBold.ttf') format('truetype'),
+       url('../fonts/text-fonts/ManropeBold.svg#ManropeBold') format('svg');
+       font-style: normal;
+       font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'KhulaRegular';
+  src: url('../fonts/text-fonts/KhulaRegular.eot');
+  src: url('../fonts/text-fonts/KhulaRegular.eot') format('embedded-opentype'),
+       url('../fonts/text-fonts/KhulaRegular.woff2') format('woff2'),
+       url('../fonts/text-fonts/KhulaRegular.woff') format('woff'),
+       url('../fonts/text-fonts/KhulaRegular.ttf') format('truetype'),
+       url('../fonts/text-fonts/KhulaRegular.svg#KhulaRegular') format('svg');
+       font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'KhulaSemiBold';
+  src: url('../fonts/text-fonts/KhulaSemiBold.eot');
+  src: url('../fonts/text-fonts/KhulaSemiBold.eot') format('embedded-opentype'),
+       url('../fonts/text-fonts/KhulaSemiBold.woff2') format('woff2'),
+       url('../fonts/text-fonts/KhulaSemiBold.woff') format('woff'),
+       url('../fonts/text-fonts/KhulaSemiBold.ttf') format('truetype'),
+       url('../fonts/text-fonts/KhulaSemiBold.svg#KhulaSemiBold') format('svg');
+       font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'KhulaBold';
+  src: url('../fonts/text-fonts/KhulaBold.eot');
+  src: url('../fonts/text-fonts/KhulaBold.eot') format('embedded-opentype'),
+       url('../fonts/text-fonts/KhulaBold.woff2') format('woff2'),
+       url('../fonts/text-fonts/KhulaBold.woff') format('woff'),
+       url('../fonts/text-fonts/KhulaBold.ttf') format('truetype'),
+       url('../fonts/text-fonts/KhulaBold.svg#KhulaBold') format('svg');
+       font-style: normal;
+        font-display: swap;
+}

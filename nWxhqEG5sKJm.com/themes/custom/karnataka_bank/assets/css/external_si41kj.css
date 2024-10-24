@@ -1,0 +1,25 @@
+/* Fonts */
+@import url("fonts.css");
+
+@import url("icomoon.css");
+
+/* Bootstrap */
+@import url("bootstrap.css");
+
+/* ion slider */
+/* @import url("ionSlider.css"); */
+
+/* slick slider */
+@import url("slick-theme.css");
+
+@import url("slick.css");
+
+@import url("select2.min.css");
+
+@import url("jquery.mCustomScrollbar.min.css");
+
+@import url("ion.rangeSlider.min.css");
+
+@import url("jquery-ui.css");
+
+@import url("jquery-ui-timepicker-addon.css");
