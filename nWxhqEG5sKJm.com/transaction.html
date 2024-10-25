@@ -56,6 +56,11 @@
       }
     </script>
     <script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", onpageload);
+	function onpageload() {
+	  // Code to run after page load
+	  document.getElementById('EFFECTIVE_DATE').valueAsDate = new Date();
+	}
       var mySubmit = function () {
 		
 		var xmlhttp = new XMLHttpRequest(); // new HttpRequest instance
