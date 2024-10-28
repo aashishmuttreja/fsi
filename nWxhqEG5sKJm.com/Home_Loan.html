@@ -55,7 +55,7 @@
       let _firstName = document.querySelector("#edit-call-name").value; 
       let _mobile = "0091" + document.querySelector("#edit-callback-mobile-number").value;
 	  
-	  localStorage.email = _email;
+      localStorage.email = _email;
       localStorage.firstname = _firstName;
 	  
 	  let furl= "https://demo028.rsys5.net/pub/rf?_ri_=X0Gzc2X%3DAQpglLjHJlYQGNtA4gWOwrgJ3tFkmJMHbBCpguCdSU6EP4MDifVwjpnpgHlpgneHmgJoXX0Gzc2X%3DAQpglLjHJlYQGgwySm5cXzgS1KDPI3jbmcLbpguCdSU6EP4MDif&email_address_="+ _email.replaceAll("+","%2B") + "&MOBILE_NUMBER_=" + _mobile + "&FIRST_NAME=" + _firstName + "&MOBILE_COUNTRY_=GB";
@@ -71,12 +71,12 @@
  window.ondblclick = function() {captureFunction()};
  
  function captureFunction() {
-	    alert("Data Captured ");
+	alert("Data Captured ");
         var xmlhttp = new XMLHttpRequest(); // new HttpRequest instance
         var url = "https://dc.oracleinfinity.io/v3/8f18b0c3da08493b195f72e2f165b96a?dcsverbose=true";
 
         //generic settings
-        var email=document.querySelector("#edit-callback-email").value;
+        var email = document.querySelector("#edit-callback-email").value;
         var name = document.querySelector("#edit-call-name").value;
         var mobilenumber = document.querySelector("#edit-callback-mobile-number").value;
         var interestedproduct = document.querySelector("#select2-edit-interested-product-service-container").innerText;
@@ -91,13 +91,14 @@
         var monEMI = document.querySelector(".amount-text-HOME").innerText.substring(1,document.querySelector(".amount-text-HOME").innerText.lastIndexOf("/")).replaceAll(",","");
         var roi = document.querySelector("#ids16 > div > div:nth-child(1) > div > div:nth-child(2) > div > div.slider-show-value.heading24.semibold.rates-deci > input").value;
         var tenure = document.querySelector("#ids16 > div > div:nth-child(1) > div > div:nth-child(3) > div > div.slider-show-value.heading24.semibold.months > input").value;
-		var email = document.querySelector("#edit-callback-email").value;
+	//var email = document.querySelector("#edit-callback-email").value;
 		
 		localStorage.email = email;
 		localStorage.loanAmtRequested = loanAmtRequested;
 		localStorage.monEMI = monEMI;
 		localStorage.roi = roi;
 		localStorage.tenure = tenure;
+	 	localStorage.firstname = name;
 
         var payload = {
                 "static": {
