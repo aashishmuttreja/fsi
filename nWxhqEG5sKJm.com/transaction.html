@@ -76,7 +76,7 @@
 		var transactioncode = document.querySelector("#select2-TransactionCode-container").innerText;
 		var posting_date = new Date(effective_date);
 		var cycle_date = "";
-		var transaction_id = Date.now();
+		var transaction_id = Date.now() + "BFSF";
 		
 		posting_date.setDate(posting_date.getDate() - 2);
 		var efft_date = ((effective_date.getMonth() > 8) ? (effective_date.getMonth() + 1) : ('0' + (effective_date.getMonth() + 1))) + '/' + ((effective_date.getDate() > 9) ? effective_date.getDate() : ('0' + effective_date.getDate())) + '/' + effective_date.getFullYear();
