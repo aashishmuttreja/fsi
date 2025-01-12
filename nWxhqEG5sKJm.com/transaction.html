@@ -67,7 +67,8 @@
         var url = "https://dc.oracleinfinity.io/v3/8f18b0c3da08493b195f72e2f165b96a?dcsverbose=true";
 
         //generic settings
-        var account = document.querySelector("#edit-account-no").value;
+        var custid = document.querySelector("#edit-account-no").value;
+	var account = document.querySelector("#edit-account-no").value;
         var effective_date = new Date(document.querySelector("#EFFECTIVE_DATE").value);
         var transaction_amount = document.querySelector("#TRANSACTION_AMOUNT").value;
         var transactiontype = document.getElementById("TransactionType").value;
@@ -104,6 +105,7 @@
           events: [
             {
               "ora.z_eventname": "addTransItemsBFSF",
+	      "ora.z_custid": custid,
               "ora.z_bfsaccount": account,
               "ora.z_bfs_effective_date": efft_date,
               "ora.z_bfs_trans_amount": transaction_amount,
@@ -113,8 +115,8 @@
               "ora.z_bfs_trans_pstdate": pst_date,
               "ora.z_bfs_trans_cycdate": cycledate,
               "ora.z_bfs_trans_id": transaction_id,
-			  "ora.z_bfs_srctransID": srctransID,
-			  "ora.z_bfs_srcID": 1
+	      "ora.z_bfs_srctransID": srctransID,
+	      "ora.z_bfs_srcID": 1
             },
           ],
         };
