@@ -1,4 +1,5 @@
-    let hasRun = false;
+alert("here");
+let hasRun = false;
 
 
      window.ondblclick = function() {if (!hasRun) {updateCustomerId(); hasRun = true;} replacePurchaseReturn(); updateProductAffinity(); replacePapularDay(); replacePapularMonth(); updateOverview(); updatechannelEngagement(); replacepopularResponseDay(); replacepopularResponseMonth();
