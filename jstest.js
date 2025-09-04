@@ -1,7 +1,7 @@
 alert("here");
 let hasRun = false;
 updateCustomerId();
-
+   
      window.ondblclick = function() {if (!hasRun) {updateCustomerId(); hasRun = true;} replacePurchaseReturn(); updateProductAffinity(); replacePapularDay(); replacePapularMonth(); updateOverview(); updatechannelEngagement(); replacepopularResponseDay(); replacepopularResponseMonth();
 
 
@@ -398,3 +398,4 @@ updateCustomerId();
         }
 
     }
+
